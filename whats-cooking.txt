@@ -24,6 +24,58 @@ Please report any mirror instability to linux-doc@vger.kernel.org
 -------------------------------------------------------------------
 [Cooking]
 
+* Chen-Yu Yeh 2026-11-23
+  [PATCH v2 00/25] docs/zh_TW: process: resync translations with the English originals
+  [PATCH v2 01/25] docs/zh_TW: process: sync 1.Intro.rst with the English original
+  [PATCH v2 02/25] docs/zh_TW: process: sync 2.Process.rst with the English original
+  [PATCH v2 03/25] docs/zh_TW: process: sync 4.Coding.rst with the English original
+  [PATCH v2 04/25] docs/zh_TW: process: sync 5.Posting.rst with the English original
+  [PATCH v2 05/25] docs/zh_TW: process: sync 6.Followthrough.rst with the English original
+  [PATCH v2 06/25] docs/zh_TW: process: sync 7.AdvancedTopics.rst with the English original
+  [PATCH v2 07/25] docs/zh_TW: process: sync 8.Conclusion.rst with the English original
+  [PATCH v2 08/25] docs/zh_TW: process: sync code-of-conduct-interpretation.rst with the English original
+  [PATCH v2 09/25] docs/zh_TW: process: sync code-of-conduct.rst with the English original
+  [PATCH v2 10/25] docs/zh_TW: process: sync gdb-kernel-debugging.rst with the English original
+  [PATCH v2 11/25] docs/zh_TW: process: sync development-process.rst with the English original
+  [PATCH v2 12/25] docs/zh_TW: process: sync email-clients.rst with the English original
+  [PATCH v2 13/25] docs/zh_TW: process: sync kernel-driver-statement.rst with the English original
+  [PATCH v2 14/25] docs/zh_TW: process: sync kernel-enforcement-statement.rst with the English original
+  [PATCH v2 15/25] docs/zh_TW: process: sync management-style.rst with the English original
+  [PATCH v2 16/25] docs/zh_TW: process: sync security-bugs.rst with the English original
+  [PATCH v2 17/25] docs/zh_TW: process: sync volatile-considered-harmful.rst with the English original
+  [PATCH v2 18/25] docs/zh_TW: process: sync 3.Early-stage.rst with the English original
+  [PATCH v2 19/25] docs/zh_TW: process: sync coding-style.rst with the English original
+  [PATCH v2 20/25] docs/zh_TW: process: sync embargoed-hardware-issues.rst with the English original
+  [PATCH v2 21/25] docs/zh_TW: process: sync howto.rst with the English original
+  [PATCH v2 22/25] docs/zh_TW: process: sync license-rules.rst with the English original
+  [PATCH v2 23/25] docs/zh_TW: process: sync stable-api-nonsense.rst with the English original
+  [PATCH v2 24/25] docs/zh_TW: process: sync submit-checklist.rst with the English original
+  [PATCH v2 25/25] docs/zh_TW: process: sync submitting-patches.rst with the English original
+
+  Needs review.
+  source: <20261123110217.170025-1-chenyou910331@gmail.com>
+
+
+* Chen-Yu Yeh 2026-11-23
+  [PATCH v2 00/13] docs/zh_TW: process: add translations of 13 documents
+  [PATCH v2 01/13] docs/zh_TW: process: add researcher-guidelines.rst translation
+  [PATCH v2 02/13] docs/zh_TW: process: add cve.rst translation
+  [PATCH v2 03/13] docs/zh_TW: process: add applying-patches.rst translation
+  [PATCH v2 04/13] docs/zh_TW: process: add maintainer-pgp-guide.rst translation
+  [PATCH v2 05/13] docs/zh_TW: process: add changes.rst translation
+  [PATCH v2 06/13] docs/zh_TW: process: add handling-regressions.rst translation
+  [PATCH v2 07/13] docs/zh_TW: process: add deprecated.rst translation
+  [PATCH v2 08/13] docs/zh_TW: process: add kernel-docs.rst translation
+  [PATCH v2 09/13] docs/zh_TW: process: add maintainer-handbooks.rst translation
+  [PATCH v2 10/13] docs/zh_TW: process: add contribution-maturity-model.rst translation
+  [PATCH v2 11/13] docs/zh_TW: process: add conclave.rst translation
+  [PATCH v2 12/13] docs/zh_TW: process: add threat-model.rst translation
+  [PATCH v2 13/13] docs/zh_TW: process: add maintainers.rst translation
+
+  Needs review.
+  source: <20261123110637.172045-1-chenyou910331@gmail.com>
+
+
 * Zixin Wang 2026-11-21
   [PATCH v2] docs/zh_CN: Add core-api/irq managed_irq Chinese translation
 
@@ -83,59 +135,6 @@ Please report any mirror instability to linux-doc@vger.kernel.org
 
   Needs review.
   source: <20261108070826.2000511-1-dzm91@hust.edu.cn>
-
-
-* Chen-Yu Yeh 2026-11-06
-  [PATCH 00/13] docs/zh_TW: process: add translations of 13 documents
-  [PATCH 01/13] docs/zh_TW: process: add researcher-guidelines.rst translation
-  [PATCH 02/13] docs/zh_TW: process: add cve.rst translation
-  [PATCH 03/13] docs/zh_TW: process: add applying-patches.rst translation
-  [PATCH 04/13] docs/zh_TW: process: add maintainer-pgp-guide.rst translation
-  [PATCH 05/13] docs/zh_TW: process: add changes.rst translation
-  [PATCH 06/13] docs/zh_TW: process: add handling-regressions.rst translation
-  [PATCH 07/13] docs/zh_TW: process: add deprecated.rst translation
-  [PATCH 08/13] docs/zh_TW: process: add kernel-docs.rst translation
-  [PATCH 09/13] docs/zh_TW: process: add maintainer-handbooks.rst translation
-  [PATCH 10/13] docs/zh_TW: process: add contribution-maturity-model.rst translation
-  [PATCH 11/13] docs/zh_TW: process: add conclave.rst translation
-  [PATCH 12/13] docs/zh_TW: process: add threat-model.rst translation
-  [PATCH 13/13] docs/zh_TW: process: add maintainers.rst translation
-
-  Expecting a reroll.
-  cf. <3bbce43f-476c-4a21-8da3-2be98a696e9c@hust.edu.cn>
-  source: <20261106113545.708896-1-chenyou910331@gmail.com>
-
-
-* Chen-Yu Yeh 2026-11-06
-  [PATCH 00/25] docs/zh_TW: process: resync translations with the English originals
-  [PATCH 01/25] docs/zh_TW: process: sync 1.Intro.rst with the English original
-  [PATCH 02/25] docs/zh_TW: process: sync 2.Process.rst with the English original
-  [PATCH 03/25] docs/zh_TW: process: sync 4.Coding.rst with the English original
-  [PATCH 04/25] docs/zh_TW: process: sync 5.Posting.rst with the English original
-  [PATCH 05/25] docs/zh_TW: process: sync 6.Followthrough.rst with the English original
-  [PATCH 06/25] docs/zh_TW: process: sync 7.AdvancedTopics.rst with the English original
-  [PATCH 07/25] docs/zh_TW: process: sync 8.Conclusion.rst with the English original
-  [PATCH 08/25] docs/zh_TW: process: sync code-of-conduct-interpretation.rst with the English original
-  [PATCH 09/25] docs/zh_TW: process: sync code-of-conduct.rst with the English original
-  [PATCH 10/25] docs/zh_TW: process: sync gdb-kernel-debugging.rst with the English original
-  [PATCH 11/25] docs/zh_TW: process: sync development-process.rst with the English original
-  [PATCH 12/25] docs/zh_TW: process: sync email-clients.rst with the English original
-  [PATCH 13/25] docs/zh_TW: process: sync kernel-driver-statement.rst with the English original
-  [PATCH 14/25] docs/zh_TW: process: sync kernel-enforcement-statement.rst with the English original
-  [PATCH 15/25] docs/zh_TW: process: sync management-style.rst with the English original
-  [PATCH 16/25] docs/zh_TW: process: sync security-bugs.rst with the English original
-  [PATCH 17/25] docs/zh_TW: process: sync volatile-considered-harmful.rst with the English original
-  [PATCH 18/25] docs/zh_TW: process: sync 3.Early-stage.rst with the English original
-  [PATCH 19/25] docs/zh_TW: process: sync coding-style.rst with the English original
-  [PATCH 20/25] docs/zh_TW: process: sync embargoed-hardware-issues.rst with the English original
-  [PATCH 21/25] docs/zh_TW: process: sync howto.rst with the English original
-  [PATCH 22/25] docs/zh_TW: process: sync license-rules.rst with the English original
-  [PATCH 23/25] docs/zh_TW: process: sync stable-api-nonsense.rst with the English original
-  [PATCH 24/25] docs/zh_TW: process: sync submit-checklist.rst with the English original
-  [PATCH 25/25] docs/zh_TW: process: sync submitting-patches.rst with the English original
-
-  Waiting for response.
-  source: <20261106113142.706783-1-chenyou910331@gmail.com>
 
 
 * Dongliang Mu 2026-10-29
