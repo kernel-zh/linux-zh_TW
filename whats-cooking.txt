@@ -100,7 +100,9 @@ Please report any mirror instability to linux-doc@vger.kernel.org
   [PATCH v2 3/4] docs/zh_CN: Add backporting translation
   [PATCH v2 4/4] docs/zh_CN: Add botching-up-ioctls translation
 
-  Needs review.
+  Waiting for response.
+  cf. <avxh6NCMrsJI3f_x@wyuan.org>
+  cf. <avx-ZOPV3q1VmSvm@wyuan.org>
   source: <20261117115527.27937-1-YikunWei@126.com>
 
 
