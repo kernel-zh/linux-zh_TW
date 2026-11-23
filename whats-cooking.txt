@@ -3,7 +3,7 @@ Cc: Alex Shi <alexs@kernel.org>, Dongliang Mu <dzm91@hust.edu.cn>,
 	Yanteng Si <si.yanteng@linux.dev>,
 	Chen-Yu Yeh <chenyou910331@gmail.com>,
 	Weijie Yuan <wy@wyuan.org>
-Subject: What's cooking in Chinese docs (Nov 2026, #04)
+Subject: What's cooking in Chinese docs (Nov 2026, #05)
 
 Here are the topics for Chinese docs waiting to be merged.
 
