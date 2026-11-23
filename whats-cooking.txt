@@ -88,7 +88,8 @@ Please report any mirror instability to linux-doc@vger.kernel.org
   [PATCH v2 1/2] docs/zh_CN: Add RCU/index.rst translation
   [PATCH v2 2/2] docs/zh_CN: Add RCU/whatisRCU.rst Chinese translation
 
-  Needs review.
+  Waiting for response.
+  cf. <09ef3d3d-0e68-49c6-a6a2-c754104ede9e@hust.edu.cn>
   source: <20261118131636.5131-1-xiongwei.song@linux.dev>
 
 
