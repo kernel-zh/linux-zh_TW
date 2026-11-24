@@ -290,36 +290,3 @@ If anyone has any objections, please let us know.
 
   Acked by Weijie.
   source: <20260929115956.229610-1-chenyou910331@gmail.com>
-
--------------------------------------------------------------------
-[Discarded]
-
-* Yikun Wei 2026-11-15
-  [PATCH] docs/zh_CN: Add botching-up-ioctls translation
-
-  Replaced by a complete series.
-  source: <20261115125052.59015-1-YikunWei@126.com>
-
-
-* Yikun Wei 2026-11-14
-  [PATCH] docs/zh_CN: Add backporting translation
-
-  Replaced by a complete series.
-  source: <20261114043633.7459-1-YikunWei@126.com>
-
-
-* Yikun Wei 2026-11-13
-  [PATCH] docs/zh_CN: Add deprecated translation
-
-  Replaced by a complete series.
-  cf. <6a11fb6c-53f8-4804-859c-dcdb28ddce4b@hust.edu.cn>
-  source: <20261113122844.24838-1-YikunWei@126.com>
-
-
-* Yikun Wei 2026-11-13
-  [PATCH] docs/zh_CN: Add contribution maturity model translation
-
-  Replaced by a complete series.
-  cf. <0b283f1a-d516-4fb6-b5bc-e3171d9c291a@hust.edu.cn>
-  source: <20261113112200.16790-1-YikunWei@126.com>
-
