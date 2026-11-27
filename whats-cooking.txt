@@ -112,26 +112,6 @@ Please report any mirror instability to linux-doc@vger.kernel.org
   source: <20261115034307.15-1-wangyaoze999@gmail.com>
 
 
-* Weijie Yuan 2026-11-09
-  [PATCH v3 0/2] docs/zh_CN: update maintainer/configure-git.rst
-  [PATCH v3 1/2] docs/zh_CN: sync maintainer/configure-git with upstream
-  [PATCH v3 2/2] docs/zh_CN: improve maintainer/pull-requests translation
-
-  Reviewed by Dongliang.
-  source: <20261109-configure-git-v3-0-d7807bb8e8c7@wyuan.org>
-
-
-* Dongliang Mu 2026-11-09
-  [PATCH v2 0/4] docs/zh_CN: translate AI-related process guides
-  [PATCH v2 1/4] docs/zh_CN: translate coding-assistants.rst
-  [PATCH v2 2/4] docs/zh_CN: translate generated-content.rst
-  [PATCH v2 3/4] docs/zh_CN: translate threat-model.rst
-  [PATCH v2 4/4] docs/zh_CN: link AI guide to translated documents
-
-  Reviewed by Weijie.
-  source: <cover.1794197977.git.dzm91@hust.edu.cn>
-
-
 * Dongliang Mu 2026-11-08
   [PATCH] docs/zh_CN: add clang-format guide translation
 
@@ -151,17 +131,8 @@ Please report any mirror instability to linux-doc@vger.kernel.org
   [PATCH v3 8/9] docs/zh_CN: update networking/xfrm/xfrm_proc.rst translation
   [PATCH v3 9/9] docs/zh_CN: remove stale Original fields from SCSI and IPE translations
 
-  Reviewed by Yanteng.
+  Expecting a reroll. (conflict)
   source: <20261029124429.294868-1-dzm91@hust.edu.cn>
-
-
-* Jiandong Qiu 2026-10-29
-  [PATCH v4 0/2] docs/zh_CN: update translation of doc-guide/sphinx.rst
-  [PATCH v4 1/2] docs/zh_CN: add process/changes.rst translation
-  [PATCH v4 2/2] docs/zh_CN: update sphinx.rst translation
-
-  Reviewed by Dongliang.
-  source: <cover.1793279600.git.qiujiandong1998@gmail.com>
 
 
 * Jiaming Ouyang 2026-10-28
@@ -172,20 +143,14 @@ Please report any mirror instability to linux-doc@vger.kernel.org
   source: <20261028072643.32250-1-jiamingouyang13@gmail.com>
 
 
-* Yao Yiqi 2026-10-22
-  [PATCH] docs/zh_CN: fix typos in admin-guide/README
-
-  Reviewed by Dongliang.
-  source: <20261022135949.361566-1-yyaqia@gmail.com>
-
-
 * Weijie Yuan 2026-10-21
   [PATCH v3 0/2] docs/zh_CN: cleanup headers
   [PATCH v3 1/2] docs/zh_CN: remove translator-related headers
   [PATCH v3 2/2] docs/zh_CN: remove Translator field in header template
 
   Partly reviewed by Dongliang with an extra question to Jon.
-  source: <cover.1792569583.git.wy@wyuan.org>
+  # changed to the correct msigd
+  source: <cover.1792745468.git.wy@wyuan.org>
 
 
 * Yikun Wei 2026-10-20
@@ -199,18 +164,6 @@ Please report any mirror instability to linux-doc@vger.kernel.org
   Expecting a reroll. (thread broken)
   cf. <6baba360-6ee2-4195-91e4-d22c97d3c146@hust.edu.cn>
   source: <SI2PPFCA6543649A166AABA54D11A931F7DDD672@SI2PPFCA6543649.apcprd04.prod.outlook.com>
-
-
-* Weijie Yuan 2026-08-23
-  [PATCH v2 0/5] Update maintainer-pgp-guide.rst Chinese translation
-  [PATCH v2 1/5] docs/zh_CN: update maintainer-pgp-guide translation
-  [PATCH v2 2/5] docs/zh_CN: clarify free Nitrokey requirements
-  [PATCH v2 3/5] docs/zh_CN: update maintainer-pgp-guide kernel.org link
-  [PATCH v2 4/5] docs/zh_CN: add kernel.org trust repository reference
-  [PATCH v2 5/5] docs/zh_CN: remove empty proofreader field from maintainer PGP guide
-
-  Reviewed by Dongliang.
-  source: <20260823-maintainer-pgp-guide-v2-0-bea33b2ece54@wyuan.org>
 
 
 * Yan Zhu 2026-06-12
@@ -235,17 +188,55 @@ Please report any mirror instability to linux-doc@vger.kernel.org
   cf. <e708b270-3adc-4c7e-a48d-9804faed6c44@hust.edu.cn>
   source: <tencent_7080BF6BB8F05936649DDC091FFD8C45210A@qq.com>
 
--------------------------------------------------------------------
-[Queuing] #zh_TW
 
-Queuing for 7.5 merge window.
-Currently here: https://github.com/kernel-zh/linux-zh_TW.git docs-next
-If anyone has any objections, please let us know.
+-----------------------------------------------------------------------
+[Graduated to 'docs-next']
+
+* Weijie Yuan 2026-11-09
+  [PATCH v3 0/2] docs/zh_CN: update maintainer/configure-git.rst
+  [PATCH v3 1/2] docs/zh_CN: sync maintainer/configure-git with upstream
+  [PATCH v3 2/2] docs/zh_CN: improve maintainer/pull-requests translation
+
+  Applied.
+  source: <20261109-configure-git-v3-0-d7807bb8e8c7@wyuan.org>
+
+
+* Dongliang Mu 2026-11-09
+  [PATCH v2 0/4] docs/zh_CN: translate AI-related process guides
+  [PATCH v2 1/4] docs/zh_CN: translate coding-assistants.rst
+  [PATCH v2 2/4] docs/zh_CN: translate generated-content.rst
+  [PATCH v2 3/4] docs/zh_CN: translate threat-model.rst
+  [PATCH v2 4/4] docs/zh_CN: link AI guide to translated documents
+
+  Applied.
+  source: <cover.1794197977.git.dzm91@hust.edu.cn>
+
+
+* Jiandong Qiu 2026-10-29
+  [PATCH v4 0/2] docs/zh_CN: update translation of doc-guide/sphinx.rst
+  [PATCH v4 1/2] docs/zh_CN: add process/changes.rst translation
+  [PATCH v4 2/2] docs/zh_CN: update sphinx.rst translation
+
+  Applied.
+  source: <cover.1793279600.git.qiujiandong1998@gmail.com>
+
+
+* Weijie Yuan 2026-08-23
+  [PATCH v2 0/5] Update maintainer-pgp-guide.rst Chinese translation
+  [PATCH v2 1/5] docs/zh_CN: update maintainer-pgp-guide translation
+  [PATCH v2 2/5] docs/zh_CN: clarify free Nitrokey requirements
+  [PATCH v2 3/5] docs/zh_CN: update maintainer-pgp-guide kernel.org link
+  [PATCH v2 4/5] docs/zh_CN: add kernel.org trust repository reference
+  [PATCH v2 5/5] docs/zh_CN: remove empty proofreader field from maintainer PGP guide
+
+  Applied.
+  source: <20260823-maintainer-pgp-guide-v2-0-bea33b2ece54@wyuan.org>
+
 
 * Weijie Yuan 2026-10-30
   [PATCH v2] docs/zh_TW: drop unused enforcement statement label
 
-  Will be queued after Chen-Yu's two new series land.
+  Applied.
   source: <auQwssHcQiM09SDd@wyuan.org>
 
 
@@ -255,14 +246,14 @@ If anyone has any objections, please let us know.
   [PATCH 2/3] docs/zh_TW: mark translations outside the maintained set
   [PATCH 3/3] docs/zh_TW: link filesystems/ and cpu-freq/ from the index
 
-  Acked by Weijie.
+  Applied.
   source: <20260929131142.266819-1-chenyou910331@gmail.com>
 
 
 * Chen-Yu Yeh 2026-09-29
   [PATCH] docs/zh_TW: remove the unreachable plain-text translations Chen-Yu Yeh
 
-  Acked by Weijie.
+  Applied.
   source: <20260929131109.266535-1-chenyou910331@gmail.com>
 
 
@@ -273,7 +264,7 @@ If anyone has any objections, please let us know.
   [PATCH 3/4] docs/zh_TW: move gdb-kernel-debugging to process/debugging/
   [PATCH 4/4] docs/zh_TW: add missing :Original: fields
 
-  Reviewed by Weijie.
+  Applied.
   source: <20260929131020.266120-1-chenyou910331@gmail.com>
 
 
@@ -287,5 +278,15 @@ If anyone has any objections, please let us know.
   [PATCH v2 6/7] docs/zh_TW: cpu-freq: remove maintainer contact information
   [PATCH v2 7/7] docs/zh_TW: remove the last maintainer contact references
 
-  Acked by Weijie.
+  Applied.
   source: <20260929115956.229610-1-chenyou910331@gmail.com>
+
+-----------------------------------------------------------------------
+[Discarded]
+
+* Yao Yiqi 2026-10-22
+  [PATCH] docs/zh_CN: fix typos in admin-guide/README
+
+  Too small typo fix may cause conflicts with other patches.
+  So, not worth to apply.
+  source: <20261022135949.361566-1-yyaqia@gmail.com>
