@@ -148,7 +148,8 @@ Please report any mirror instability to linux-doc@vger.kernel.org
   [PATCH v3 1/2] docs/zh_CN: remove translator-related headers
   [PATCH v3 2/2] docs/zh_CN: remove Translator field in header template
 
-  Partly reviewed by Dongliang with an extra question to Jon.
+  Expecting a reroll. (conflict)
+  cf. <awlxbcfzMM0GdpA4@wyuan.org>
   # changed to the correct msigd
   source: <cover.1792745468.git.wy@wyuan.org>
 
