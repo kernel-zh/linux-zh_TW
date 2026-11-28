@@ -24,6 +24,22 @@ Please report any mirror instability to linux-doc@vger.kernel.org
 -------------------------------------------------------------------
 [Cooking]
 
+* Dongliang Mu 2026-11-28
+  [PATCH v4 0/9] docs/zh_CN: align translation paths and update guides
+  [PATCH v4 1/9] docs/zh_CN: update admin-guide/index.rst translation
+  [PATCH v4 2/9] docs/zh_CN: update admin-guide/README.rst translation
+  [PATCH v4 3/9] docs/zh_CN: add media administrator guide translations
+  [PATCH v4 4/9] docs/zh_CN: reorganize process debugging guides
+  [PATCH v4 5/9] docs/zh_CN: update magic-number to match upstream
+  [PATCH v4 6/9] docs/zh_CN: reorganize media driver API translations
+  [PATCH v4 7/9] docs/zh_CN: move GFS2 translations into filesystems/gfs2
+  [PATCH v4 8/9] docs/zh_CN: update networking/xfrm/xfrm_proc.rst translation
+  [PATCH v4 9/9] docs/zh_CN: remove stale Original fields from SCSI and IPE translations
+
+  Reviewed by Yanteng Si.
+  source: <20261128064916.3481435-1-dzm91@hust.edu.cn>
+
+
 * Xiongwei Song 2026-11-26
   [PATCH v3 0/2] Add RCU docs Chinese translation
   [PATCH v3 1/2] docs/zh_CN: Add RCU/index.rst translation
@@ -119,22 +135,6 @@ Please report any mirror instability to linux-doc@vger.kernel.org
   source: <20261108070826.2000511-1-dzm91@hust.edu.cn>
 
 
-* Dongliang Mu 2026-10-29
-  [PATCH v3 0/9] docs/zh_CN: align translation paths and update guides
-  [PATCH v3 1/9] docs/zh_CN: update admin-guide/index.rst translation
-  [PATCH v3 2/9] docs/zh_CN: update admin-guide/README.rst translation
-  [PATCH v3 3/9] docs/zh_CN: add media administrator guide translations
-  [PATCH v3 4/9] docs/zh_CN: reorganize process debugging guides
-  [PATCH v3 5/9] docs/zh_CN: update magic-number to match upstream
-  [PATCH v3 6/9] docs/zh_CN: reorganize media driver API translations
-  [PATCH v3 7/9] docs/zh_CN: move GFS2 translations into filesystems/gfs2
-  [PATCH v3 8/9] docs/zh_CN: update networking/xfrm/xfrm_proc.rst translation
-  [PATCH v3 9/9] docs/zh_CN: remove stale Original fields from SCSI and IPE translations
-
-  Expecting a reroll. (conflict)
-  source: <20261029124429.294868-1-dzm91@hust.edu.cn>
-
-
 * Jiaming Ouyang 2026-10-28
   [PATCH v4] docs/zh_CN: add Chinese translation for usb/ohci.rst
 
@@ -188,7 +188,6 @@ Please report any mirror instability to linux-doc@vger.kernel.org
   cf. <440378d6-d72c-4edd-9159-582df02b49e6@hust.edu.cn>
   cf. <e708b270-3adc-4c7e-a48d-9804faed6c44@hust.edu.cn>
   source: <tencent_7080BF6BB8F05936649DDC091FFD8C45210A@qq.com>
-
 
 -----------------------------------------------------------------------
 [Graduated to 'docs-next']
